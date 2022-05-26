@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+}
+body {
+  background: linear-gradient(
+    to left,
+    rgb(72, 103, 126),
+    10%,
+    rgb(95, 145, 145)
+  );
+  padding: 0;
+}
+div.container {
+  background: linear-gradient(
+    to right,
+    rgb(72, 103, 126),
+    10%,
+    rgb(95, 145, 145)
+  );
+  margin: 0px auto;
+  padding: 40px 30px;
+  border-radius: 3%;
+  font-family: "Indie Flower", cursive;
+  font-size: 17px;
+  width: 85%;
+  max-width: 900px;
+}
+
+#img-div {
+  width: 85%;
+  margin: 30px auto;
+  padding: 0px;
+  box-shadow: 10px 5px 5px rgb(95, 83, 83);
+  background-color: rgb(26, 25, 25);
+  border-radius: 3%;
+}
+
+img {
+  width: 100%;
+  border-radius: 3%;
+  margin: auto;
+  height: 100%;
+  
+}
+
+div.align {
+  width: 85%;
+  margin: 20px auto;
+  background: linear-gradient(
+    to left,
+    rgb(72, 103, 126),
+    10%,
+    rgb(95, 145, 145)
+  );
+  padding: 10px 10px;
+  box-shadow: 10px 5px 5px rgb(95, 83, 83);
+  border-radius: 5%;
+}
+
+span {
+  font-weight: bold;
+}
+hr {
+  width: 85%;
+  margin: 0 auto 20px auto;
+  color: #226666;
+  height: 0.1px;
+  background-color: #226666;
+}
+.cap {
+  text-transform: capitalize;
+}
+h2,
+h3,
+h4,
+h5 {
+  text-align: center;
+  width:85%;
+  margin:0 auto;
+}
+#img-caption {
+  text-align: center;
+  color: white;
+  width:100%;
+  font-size: 12px;
+  font-style: italic;
+}
+div.blockquote {
+  width: 85%;
+  text-align: justify;
+  margin: 20px auto;
+  padding: 0px;
+  font-style: italic;
+  font-size: 15px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(12, 177, 177);
+  font-size: 15px;
+  
+}
